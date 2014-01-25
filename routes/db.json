@@ -1,0 +1,12 @@
+[
+  {
+    "nickname":"hank",
+    "name":"Hank Wang",
+    "tel":12345
+  },
+  {
+    "nickname":"peter",
+    "name":"Peter Wang",
+    "tel":12345
+  }
+]
