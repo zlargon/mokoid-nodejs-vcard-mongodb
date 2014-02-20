@@ -4,9 +4,11 @@ exports.create = function(req, res){
 	var model = req.app.db.model;
 
 	var person = {
-		nickname: req.query.nickname,
-		name: req.query.tel,
-		tel: req.query.name
+		name: req.query.name,
+		email: req.query.email,
+		phone: req.query.phone,
+		address: req.query.address,
+		age: req.query.age
 	};
 
 	var card = new model(person);
